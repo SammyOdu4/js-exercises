@@ -32,6 +32,7 @@ let parkAvenueHouse = {
 
 // returns the full name (first name + last name) of the owner of the house
 function getOwnerFullName(house) {
+  kinningParkHouse = ("firstName" + "lastName");
 
 }
 

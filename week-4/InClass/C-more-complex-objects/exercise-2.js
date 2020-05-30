@@ -10,7 +10,8 @@ let house = {
     previousOwners: ["Claire M.", "John A."],
     currentOwner: {
       firstName: "Margaret",
-      lastName: "Conway"
+      lastName: "Conway",
+      isForSale: "false"
     }
 };
 
@@ -24,6 +25,10 @@ let newCurrentOwner = {
 
   WRITE YOUR CODE BELOW
 */
+newCurrentOwner.house = "currentOwner";
+house.previousOwners = "Stephen B.";
+house.isForSale = "true";
+
 
 // - assign the value of the variable 'newCurrentOwner' as the value to the house's "currentOwner"
 // - from the list of previous owners, replace only "John A." with "Stephen B."

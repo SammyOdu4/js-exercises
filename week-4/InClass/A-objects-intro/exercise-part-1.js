@@ -13,3 +13,12 @@ let jumper = {
   };
   
   console.log(jumper);
+
+  let house = {
+     numberOfRoom: 3, 
+     numberOfBathroom: 4,
+     bestFeature: "rooftop garden",
+     location: "Maryhill"
+  };
+
+  console.log(house);

@@ -14,3 +14,13 @@ Make sure you use words like:
 - etc.
 
 */
+
+let liverpoolFootballClub = {
+    playersName: "Ronaldo",
+    age: 30,
+    position: "striker",
+    goalScore: 25,
+    bestFoot: "RightFooter" 
+}
+
+console.log(liverpoolFootballClub);
