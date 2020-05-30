@@ -7,3 +7,9 @@ Assign each of them to a separate variable
 
 */
 
+let jumper = {
+    color: "blue",
+    isCotton: true,
+  };
+  
+  console.log(jumper);
