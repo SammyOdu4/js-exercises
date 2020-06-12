@@ -81,7 +81,7 @@ largeLinksText.addEventListener("click", increaseText);
 
 function increaseText() {
   document.body.style.fontSize = "65px";
-;}
+}
 
 /*
 Task 6
@@ -90,13 +90,3 @@ Task 6
 Using JavaScript, create an unordered list under the "Add" button.
 When the "Add" button is pressed, get the value of the text box on its left, and add it to the list you created above.
 */
-
-let blueButton1 = document.querySelector("#blueBtn");
-blueButton1.addEventListener("click", JumbotronBckGrColor);
-
-function JumbotronBckGrColor (){
-    let btnColor = document.querySelector(".jumbotron");
-        btnColor.style.backgroundColor = "red";
-    let donBtnColor = document.querySelectorAll("..btn btn-primary btn-lrg");
-        donBtnColor.style.backgroundColor = "brown";
-}
