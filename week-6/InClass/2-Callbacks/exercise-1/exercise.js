@@ -21,6 +21,6 @@ setTimeout(function(){
 let colours = ["pink", "red", "blue"];
 setInterval(function(){
     document.body.style.backgroundColor = "yellow";
-
+5
 }, 5000);
 

@@ -7,3 +7,11 @@
 
        Remember to open "index.html" using Live Preview, and test that you get the correct results in the console!
  */
+
+fetch("https://cat-fact.herokuapp.com/facts")
+.then(function (result) {
+return result.json();
+})
+.then(function(population) {
+    console.log(population.all[0]);
+});

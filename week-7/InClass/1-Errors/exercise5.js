@@ -4,6 +4,7 @@ type of error, and see which line the error is on
 Then please fix the error! */
 
 function calculateAgeInMonths(ages){
+    console.log(ages);
     let newArray = ages.map(multiplyBy12);
     return newArray;
 }
@@ -14,6 +15,6 @@ function multiplyBy12(age){
 
 let peopleAges = [4, 28, 55, 15];
 
-let agesInMonths = calculateAgeInMonths();
+let agesInMonths = calculateAgeInMonths(peopleAges);
 
 console.log(agesInMonths);

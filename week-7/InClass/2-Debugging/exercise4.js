@@ -9,12 +9,16 @@ is not a String, we should return the String "NO VALUE" - please
 modify the code to do this
 */
 
-function capitalise(customer){
+function capitalize(customer){
+    //console.log(customer);
+    if(typeof customer === "string"){
     return customer.toUpperCase();
+}else {
+    return "NO VALUE";
 }
-
+}
 const messyNames = ["Sundar", "reshma", true, "Maria", "Shantanu", 5 ];
 
-const customers = messyNames.map(capitalise);
+const customers = messyNames.map(capitalize);
 
 console.log(customers);

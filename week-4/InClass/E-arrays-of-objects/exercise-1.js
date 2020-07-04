@@ -25,11 +25,12 @@ WRITE YOUR CODE BELOW
 */
 
 
-var persons = // Complete here
+var persons = [person1, person2, person3];// Complete here
 
-var personNames = // Complete here
 
-var personsYoungerThan28YearsOld = // Complete here
+var personNames = persons.map(getNames);// Complete here
+
+//var personsYoungerThan28YearsOld = // Complete here
 
 
 /*
@@ -44,3 +45,19 @@ console.log("Question 2: array containing the person names -> ",
 
 console.log("Question 3: array containing the persons younger than 28 years old -> ", 
     (personsYoungerThan28YearsOld[0] === person1 && personsYoungerThan28YearsOld[1] === person3) ? 'Passed :)' : 'Not yet :(');
+
+
+    function getNames(p){
+        return p.name;
+    }
+
+
+    function personsYoungerThan28YearsOld(p){
+        if(p.age < 28){
+            return true;
+        }else{
+            return false;
+        }
+        }
+        var personsYoungerThan28YearsOld1 = persons.filter(personsYoungerThan28YearsOld);
+        console.log(personsYoungerThan28YearsOld1);

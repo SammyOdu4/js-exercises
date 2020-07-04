@@ -43,6 +43,38 @@ function addMovie() {
   const movieTitleInput = document.querySelector("#new-movie-input");
   const movieTitle = movieTitleInput.value;
 
+//clear the input so it's empty
+  movieTitleInput.value = "",
+
+console.log(movieTitle);
+
+//show the loading text (Hint: look inside index.html for some CSS classes you can use to show and hide this element)
+loadingText.className = "show";
+
+//after 4 seconds:
+setTimeout(function(){
+  
+}, 4000);
+
+
+//create a new movie object and add it to the "movies" array (make sure its "haveWatched" value is false)
+setTimeout(function(){
+let newMovie = {
+  title: movieTitle, 
+  haveWatched: false
+  //createDomMovie(movie)
+}
+movies.push(movie);
+
+//hide the "loading text"
+loadingText.className = "hide";
+
+//make sure the new movie shows up in the movie list
+reloadMovieList();
+}, 4000);
+
+
+
   // Your task - write the code in this function:
   // 1. The moment this function is called:
   //      - clear the input so it's empty

@@ -20,6 +20,6 @@ function doubleNumber(num){
 let a = 5;
 
 // ONLY CHANGE CODE ON LINE 23
-let b = doubleNumber();
+let b = doubleNumber(5);
 
 console.log(b);
